@@ -1,5 +1,6 @@
 package io.github.dbc;
 
+import java.util.HashMap;
 import java.util.Map;
 
 public class DuplicateCharactersCounter {
@@ -10,6 +11,7 @@ public class DuplicateCharactersCounter {
      * @return Map with characters and their count.
      */
     public Map<Character, Integer> countDuplicateCharacters(String string) {
+        HashMap<Character, Integer> map = new HashMap<>();
         return Map.of();
     }
 }
