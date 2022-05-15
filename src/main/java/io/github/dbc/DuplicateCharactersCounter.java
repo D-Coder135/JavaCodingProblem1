@@ -14,6 +14,9 @@ public class DuplicateCharactersCounter {
         HashMap<Character, Integer> map = new HashMap<>();
         for (int i = 0; i < string.length(); i++) {
             char ch = string.charAt(i);
+            if (map.containsKey(ch)) {
+
+            }
         }
         return Map.of();
     }
