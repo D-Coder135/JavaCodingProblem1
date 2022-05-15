@@ -20,6 +20,6 @@ public class DuplicateCharactersCounter {
                 map.put(ch, 1);
             }
         }
-        return Map.of();
+        return map;
     }
 }
