@@ -13,7 +13,7 @@ public class DuplicateCharactersCounter {
     public Map<Character, Integer> countDuplicateCharacters(String string) {
         HashMap<Character, Integer> map = new HashMap<>();
         for (int i = 0; i < string.length(); i++) {
-
+            char ch = string.charAt(i);
         }
         return Map.of();
     }
