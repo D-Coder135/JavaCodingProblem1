@@ -16,6 +16,8 @@ public class DuplicateCharactersCounter {
             char ch = string.charAt(i);
             if (map.containsKey(ch)) {
                 map.put(ch, map.getOrDefault(ch, 0) + 1);
+            } else {
+                map.put(ch, 1);
             }
         }
         return Map.of();
