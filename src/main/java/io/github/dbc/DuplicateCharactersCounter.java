@@ -10,8 +10,11 @@ public class DuplicateCharactersCounter {
      * @param string String to count duplicate characters.
      * @return Map with characters and their count.
      */
-    public Map<Character, Integer> countDuplicateCharacters(String string) {
+    public Map<Character, Integer> countDuplicateCharacters(String string) throws IllegalArgumentException {
         HashMap<Character, Integer> map = new HashMap<>();
+        if (string == null) {
+            throw new IllegalArgumentException();
+        }
         for (int i = 0; i < string.length(); i++) {
             char ch = string.charAt(i);
             if (map.containsKey(ch)) {
