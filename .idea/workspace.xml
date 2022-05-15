@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3bac6d6-f8b1-474b-a5e1-72bf67a3867c" name="Changes" comment="add better name for printing names of parameterized test">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b3bac6d6-f8b1-474b-a5e1-72bf67a3867c" name="Changes" comment="add an object of type HashMap&lt;Character, Integer&gt;">
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/dbc/DuplicateCharactersCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/dbc/DuplicateCharactersCounter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -159,7 +157,7 @@
       <workItem from="1652551743403" duration="710000" />
       <workItem from="1652552767032" duration="13000" />
       <workItem from="1652555356575" duration="289000" />
-      <workItem from="1652621081738" duration="607000" />
+      <workItem from="1652621081738" duration="640000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1652464516513</created>
@@ -259,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652551923621</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add an object of type HashMap&lt;Character, Integer&gt;">
+      <created>1652621709433</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1652621709433</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,7 +297,8 @@
     <MESSAGE value="add sample input and sample output in the README.md" />
     <MESSAGE value="add links and citation" />
     <MESSAGE value="add better name for printing names of parameterized test" />
-    <option name="LAST_COMMIT_MESSAGE" value="add better name for printing names of parameterized test" />
+    <MESSAGE value="add an object of type HashMap&lt;Character, Integer&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="add an object of type HashMap&lt;Character, Integer&gt;" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
